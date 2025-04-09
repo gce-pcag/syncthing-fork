@@ -92,7 +92,7 @@ public class SyncthingRunnable implements Runnable {
         ENABLE_VERBOSE_LOG = AppPrefs.getPrefVerboseLog(mPreferences);
         LOG_TO_FILE = mPreferences.getBoolean(Constants.PREF_LOG_TO_FILE, false);
         mContext = context;
-        // Example: mSyncthingBinary="/data/app/com.github.catfriend1.syncthingandroid.debug-8HsN-IsVtZXc8GrE5-Hepw==/lib/x86/libsyncthingnative.so"
+        // Example: mSyncthingBinary="/data/app/com.github.nel0x.syncthingandroid.debug-8HsN-IsVtZXc8GrE5-Hepw==/lib/x86/libsyncthingnative.so"
         mSyncthingBinary = Constants.getSyncthingBinary(mContext);
         mLogFile = Constants.getLogFile(mContext);
 

@@ -75,20 +75,20 @@ import static com.nutomic.syncthingandroid.service.RunConditionMonitor.EXTRA_BEG
  */
 public class FolderActivity extends SyncthingActivity {
     public static final String EXTRA_DEVICE_ID =
-            "com.github.catfriend1.syncthingandroid.activities.FolderActivity.DEVICE_ID";
+            "com.github.nel0x.syncthingandroid.activities.FolderActivity.DEVICE_ID";
 
     public static final String EXTRA_FOLDER_ID =
-            "com.github.catfriend1.syncthingandroid.activities.FolderActivity.FOLDER_ID";
+            "com.github.nel0x.syncthingandroid.activities.FolderActivity.FOLDER_ID";
     public static final String EXTRA_FOLDER_LABEL =
-            "com.github.catfriend1.syncthingandroid.activities.FolderActivity.FOLDER_LABEL";
+            "com.github.nel0x.syncthingandroid.activities.FolderActivity.FOLDER_LABEL";
     public static final String EXTRA_IS_CREATE =
-            "com.github.catfriend1.syncthingandroid.activities.FolderActivity.IS_CREATE";
+            "com.github.nel0x.syncthingandroid.activities.FolderActivity.IS_CREATE";
     public static final String EXTRA_NOTIFICATION_ID =
-            "com.github.catfriend1.syncthingandroid.activities.FolderActivity.NOTIFICATION_ID";
+            "com.github.nel0x.syncthingandroid.activities.FolderActivity.NOTIFICATION_ID";
     public static final String EXTRA_RECEIVE_ENCRYPTED =
-            "com.github.catfriend1.syncthingandroid.activities.FolderActivity.RECEIVE_ENCRYPTED";
+            "com.github.nel0x.syncthingandroid.activities.FolderActivity.RECEIVE_ENCRYPTED";
     public static final String EXTRA_REMOTE_ENCRYPTED =
-            "com.github.catfriend1.syncthingandroid.activities.FolderActivity.REMOTE_ENCRYPTED";
+            "com.github.nel0x.syncthingandroid.activities.FolderActivity.REMOTE_ENCRYPTED";
 
     private static final String TAG = "FolderActivity";
 

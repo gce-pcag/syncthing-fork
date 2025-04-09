@@ -52,12 +52,12 @@ android {
     buildFeatures.dataBinding = true
 
     defaultConfig {
-        applicationId = "com.github.catfriend1.syncthingandroid"
+        applicationId = "com.github.nel0x.syncthingandroid"
         minSdk = 21
         targetSdk = 35
         versionCode = versionMajor * 1000000 + versionMinor * 10000 + versionPatch * 100 + versionWrapper
         versionName = "${versionMajor}.${versionMinor}.${versionPatch}.${versionWrapper}"
-        testApplicationId = "com.github.catfriend1.syncthingandroid.test"
+        testApplicationId = "com.github.nel0x.syncthingandroid.test"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 

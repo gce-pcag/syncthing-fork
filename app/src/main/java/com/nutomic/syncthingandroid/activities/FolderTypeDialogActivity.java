@@ -17,8 +17,8 @@ import java.util.List;
 
 public class FolderTypeDialogActivity extends ThemedAppCompatActivity {
 
-    public static final String EXTRA_FOLDER_TYPE = "com.github.catfriend1.syncthingandroid.activities.FolderTypeDialogActivity.FOLDER_TYPE";
-    public static final String EXTRA_RESULT_FOLDER_TYPE = "com.github.catfriend1.syncthingandroid.activities.FolderTypeDialogActivity.EXTRA_RESULT_FOLDER_TYPE";
+    public static final String EXTRA_FOLDER_TYPE = "com.github.nel0x.syncthingandroid.activities.FolderTypeDialogActivity.FOLDER_TYPE";
+    public static final String EXTRA_RESULT_FOLDER_TYPE = "com.github.nel0x.syncthingandroid.activities.FolderTypeDialogActivity.EXTRA_RESULT_FOLDER_TYPE";
 
     private String selectedType;
 
